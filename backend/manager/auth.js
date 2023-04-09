@@ -12,8 +12,8 @@ const register = async (req, res) => {
       return res.status(400).json({ message: 'User with this email already exists.' });
     }
 
-    const hashedPassword = await bcrypt.hash(password, 12); // 对密码进行哈希处理
-    const newUser = await User.create({ username, email, password: hashedPassword }); // 使用哈希后的密码
+    const hashedPassword = await bcrypt.hash(password, 12); 
+    const newUser = await User.create({ username, email, password: hashedPassword }); 
 
     res.status(201).json({ message: 'User created successfully', user: newUser });
   } catch (error) {
