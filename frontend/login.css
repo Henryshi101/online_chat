@@ -1,0 +1,40 @@
+
+
+body {
+    margin-top: 10%;
+    font-family: "ROBOTO", sans-serif;
+    background-color:#cccccc;
+}
+
+
+
+h2 {
+
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1vw;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.5rem;
+    color: #0b0e0e;
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px auto;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#message {
+    text-align: center;
+}

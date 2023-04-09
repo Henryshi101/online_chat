@@ -1,0 +1,79 @@
+body {
+    background-color: #cccccc;
+
+}
+
+
+h2 {
+    letter-spacing: .5em;
+    border-width: 4px;
+    padding: 1em 0em;
+    top: 18%;
+    text-align: center;
+    background: linear-gradient(to right, #6641e0 0%, #5d5d5d 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 0.5rem;
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px auto;
+}
+
+input {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+button {
+    cursor: pointer;
+}
+
+#chatrooms {
+    margin: 30px auto;
+    width: 400px;
+    border: #000000;
+    border-radius: 3px;
+}
+
+.chatroom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: x-large;
+    border-left: groove;
+    border-top:groove;
+    border-bottom:groove;
+    border-right:groove;
+    border-color: #000000;
+    border-radius:5px;
+    border-right-color:#ffffff;
+    background: linear-gradient(to right, #ffffff 0%, #8f8f8f 100%);
+
+
+}
+
+.chatroom:hover {
+    transform: translate3d(0, -5px, 10px);
+    color: #ff0266;
+    font-size: xx-large;
+}
+
+#logout {
+    color:white;
+ background: rgb(75 31 220);
+ background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+ border-radius:5px;
+}
+#logout:hover {
+  background: rgb(0,3,255);
+background: linear-gradient(0deg, rgb(252 78 78) 0%, rgb(204 9 122) 100%);
+}
